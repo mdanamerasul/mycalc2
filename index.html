@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- Button trigger modal -->
+<div class="container">
+  <div class="row">
+	<div class="col-5 mx-auto">
+		<button type="button" class="btn btn-primary mx-auto" data-toggle="modal" data-target="#exampleModal">
+		  Launch CALCULATOR
+		</button>
+	</div>
+  </div>	
+</div>
+
+<!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-info ">
+      <div class="modal-header">
+        <h5 class="modal-title bg-dark text-primary mx-auto text-center" id="exampleModalLabel"> CALCULATOR</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+				
+			
+				<div class="text-justify text-center mx-auto px-4 button-primary border bg-dark">
+
+					<form name="form">
+						<input type="text" id="form" class="button1"  row="2" col="2" name="calculator"> <br>
+							
+						 <input type="button" class="button btn-1" name="div" value="squ" onclick="csquare()">
+				        <input type="button" class="button btn-1"  name="root" value="root" onclick="croot()">
+				        <input type="reset" class="button btn-1"  name="b2" value="C"><br>
+				    	
+							
+						<input type="button" class="button"  name="one" value="1" onclick="c1()">
+						<input type="button" class="button"  name="two" value="2" onclick="c2()">
+						<input type="button" class="button"  name="three" value="3" onclick="c3()">
+						
+						<input type="button" class="button"  name="sum" value="+" onclick="csum()">
+					
+						
+									<br>	
+						<input type="button" class="button"  name="four" value="4" onclick="c4()">
+						<input type="button" class="button"  name="five" value="5" onclick="c5()">
+						<input type="button" class="button"  name="six" value="6" onclick="c6()">
+						<input type="button" class="button"  name="min" value="-" onclick="cmin()"><br>
+						<input type="button" class="button"  name="7" value="7" onclick="c7()">
+						<input type="button" class="button"  name="8" value="8" onclick="c8()">
+						<input type="button" class="button"  name="9" value="9" onclick="c9()">
+						<input type="button" class="button"  name="mult" value="*" onclick="cmul()"><br>
+						<input type="button" class="button"  name="0" value="0" onclick="c0()">
+						<input type="button" class="button"  name="dot" value="." onclick="cdot()">
+						<input type="button" class="button"  name="b1" value="=" onclick="calc()">
+						
+				       <input type="button" class="button"  name="div" value="/" onclick="cdiv()">
+				       <br>
+				       <input type="button" class="text-dark"  name="div" row="4" value="console" onclick="con()">
+				       <br>
+ 
+    
+     				</form>
+
+   				</div>
+  		
+
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> -->
+<script src="js/jquery-3.5.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+
+<script src="js/calc.js"></script>
+
+</body>
+</html>
+
